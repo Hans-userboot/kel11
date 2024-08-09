@@ -13,12 +13,12 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 API_ID = int(os.environ.get("API_ID", "29587519"))
 API_HASH = os.environ.get("API_HASH", "cca7881d1921ed7b5c052a0c86d7bc2f")
 
-CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1002012009952"))
+CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1002171370040"))
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://kel5:kel6@cluster0.8kc80kp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 RESTRICT = strtobool(os.environ.get("RESTRICT", "True"))
 
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1002186850959"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1002182630545"))
 FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "0"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
@@ -41,7 +41,7 @@ FORCE_MESSAGE = os.environ.get(
 )
 
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5495748574 6295318881 5178772086").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "7042326582 7174931372 5178772086").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
     
